@@ -38,6 +38,11 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  text-transform: lowercase;
+}
+
+.name {
+  text-transform: uppercase;
 }
 
 .nav .name {
@@ -75,6 +80,7 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +92,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #0399ff;
 }
 .card {
   margin: 30px;
