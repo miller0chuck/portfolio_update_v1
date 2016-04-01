@@ -77,10 +77,13 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  background: url('images/profile2.jpg');
+  background-size: 150px 150px;
 }
 header .profile-image:hover, .logo:hover {
   transform: scale(1.2) rotate(5deg);
   border-color: #0399ff;
+  background-image: url('images/profile.jpg');
 }
 header div {
   margin: 100px;
