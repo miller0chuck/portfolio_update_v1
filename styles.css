@@ -111,10 +111,13 @@ header .profile-image:hover {
   text-align: center;
 }
 
-.solo {
-  max-width: 92%;
-
+.card img {
+  border-radius: 10px;
+  max-height: 360px;
+  margin: auto;
 }
+
+
 
 ul.skills {
   padding: 0;
@@ -191,6 +194,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+      flex-wrap: wrap;
   }
 
   header {
@@ -205,17 +209,16 @@ a.social:hover {
 
   main {
     padding-top: 20px;
-    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 500px;
   }
 
   .card p {
     line-height: 1.6em;
   }
 
-  .solo {
-
-
-  }
 
   footer {
     font-size: 1.3em;
