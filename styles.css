@@ -45,6 +45,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.name a {
+  color: white;
+}
+
 .nav .name {
     display: block;
     margin-right: auto;
@@ -79,13 +83,15 @@ header .profile-image {
   transition: all .5s;
   background: url('images/profile2.jpg');
   background-size: 150px 150px;
+  display: inline-block;
 }
 header .profile-image:hover, .logo:hover {
   transform: scale(1.2) rotate(5deg);
   border-color: #0399ff;
   background-image: url('images/profile.jpg');
 }
-header div {
+
+.head-center {
   margin: 100px;
   display: inline-block;
 }
@@ -94,8 +100,10 @@ header div {
   width: 150px;
   transition: all .5s;
 }
+
 .logo:hover {
   border-color: initial;
+  background-image: initial;
 }
 
 .tag {
